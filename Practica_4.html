@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8"/>   
+        <link rel="stylesheet" href="style.css">     
+    </head>
+    <body>
+        <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+        <form>
+            <p>Priemer, explica'ns qui ets</p>
+
+            <table>
+                <tr>
+                  <td>Email</td>                 
+                  <td><input class="largo" type="text" name="mail"></td>
+                </tr>
+                <tr>
+                  <td>Nom i Cognom</td>          
+                  <td><input class="largo" type="text" name="fname"></td>
+                </tr>
+                <tr>
+                  <td>Edat</td>
+                  <td><input class="corto" type="text" name="age"></td>
+                </tr>
+              </table>
+
+            <p>Quin cicle estàs estudiant?</p>
+
+            <input type="radio" id="asix" name="curso" value="ASIX">
+            <label for="html">ASIX</label><br>
+
+            <input type="radio" id="dam" name="curso" value="DAM">
+            <label for="html">DAM</label><br>
+
+            <input type="radio" id="daw" name="curso" value="DAW">
+            <label for="html">DAW</label>
+            
+            <br>
+            <br>
+
+            <label for="curso">I en quin curs?</label>
+            
+            <select id="curso" name="curso">
+              <option value="primer">Primer</option>  
+              <option value="segon">Segon</option>
+              <option value="tercer">Tercer</option>
+            </select>
+
+            <p>Marca els temes que vulguis estarsempre al dia!</p>
+
+            <input type="checkbox" class="estudis" name="estudios" value="estudio">
+            <label for="vehicle1">Intel·ligència artificial</label>
+
+            <br>
+
+            <input type="checkbox" class="estudis" name="estudios" value="estudio">
+            <label for="vehicle1">Computacio quàntica</label>
+            
+            <br>
+
+            <input type="checkbox" class="estudis" name="estudios" value="estudio">
+            <label for="vehicle1">Supercomputadors</label>
+            
+            <br>
+
+            <input type="checkbox" class="estudis" name="estudios" value="estudio">
+            <label for="vehicle1">Recerca en algorísmica</label>
+            
+            <br>
+            <br>
+
+            <textarea name="message" rows="10" cols="30">Escribe lo que quieras aqui dentro
+            </textarea>
+
+            <br>
+            <br>
+            <br>
+
+            <a href="enviat.html" class="boton">Subscriu-me</a>
+
+        </form>
+    </body>
+</html>
