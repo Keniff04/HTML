@@ -1,0 +1,52 @@
+body {
+    background: pink;
+    font: bold 90% monospace
+  }
+
+  .largo{
+    width: 300px;
+    }
+
+    #curso{
+        width: 100px;
+    }
+
+    .largo:hover{
+      background-color: red;
+    }
+
+    .corto:hover{
+      background-color: green;
+    }
+
+    input:hover.select{
+      background-color: yellow;
+    }
+
+    .largo:hover{
+      background-color: red;
+    }
+
+    .boton{
+      width: 200px;
+      height: 100px;
+      background-color: #1c87c9;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+     
+    }
+
+    .boton:hover{
+      background: yellow;
+      width: 200px;
+      height: 100px;
+      text-decoration: none;
+      text-align: center;
+    }
+
